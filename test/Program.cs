@@ -34,3 +34,39 @@ if (answer1 == "да")
                 break;
             }
         }
+        else if (answer3 == "нет")
+        {
+            Console.WriteLine("Вы насмотрелись уроков ХАУДИ ХО? да/нет");
+            string answer4 = Console.ReadLine().ToLower();
+            if (answer4 == "да")
+            {
+                Console.WriteLine("Python");
+                break;
+            }
+            else if (answer4 == "нет")
+            {
+                Console.WriteLine("Вам нравиться Windows? да/нет");
+                string answer5 = Console.ReadLine().ToLower();
+                if (answer5 == "да")
+                {
+                    Console.WriteLine("C#");
+                    break;
+                }
+                else if (answer5 == "нет")
+                {
+                    Console.WriteLine("Вы пи**р? да/нет");
+                    string answer6 = Console.ReadLine().ToLower();
+                    if (answer6 == "да")
+                    {
+                        Console.WriteLine("Swift");
+                        break;
+                    }
+                    else if (answer6 == "нет")
+                    {
+                        Console.WriteLine("Perl");
+                        break;
+                    }
+                }
+            }
+        }
+    }
